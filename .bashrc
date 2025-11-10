@@ -1,8 +1,8 @@
-# Aliases
+# lsd
 alias ls='lsd'
 alias ll='lsd -la'
-alias cd='z'
 
-# Zoxide initialisation
+# Zoxide
+alias cd='z'
 eval "$(zoxide init bash)"
 
