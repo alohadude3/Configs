@@ -1,0 +1,8 @@
+# Whitelist mode
+
+*
+!.gitignore
+!.vimrc
+!.bashrc
+!.ps1
+!.zshrc
