@@ -1,9 +1,9 @@
-# Aliases
+# lsd
 alias ls='lsd'
 alias ll='ls -la'
-alias cd='z'
 
-# Required by Zoxide
+# Zoxide
+alias cd='z'
 eval "$(zoxide init zsh)"
 
 # Java_HOME Java Version
