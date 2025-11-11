@@ -9,7 +9,7 @@ config.default_prog = { home_directory .. '/scoop/shims/bash.exe' }
 end
 
 config.automatically_reload_config = true
-config.color_scheme = 'One Dark (Gogh)'
+config.color_scheme = 'Tokyo Night'
 config.window_close_confirmation = "NeverPrompt"
 config.window_background_opacity = 0.9
 config.win32_system_backdrop = "Acrylic"
@@ -18,6 +18,7 @@ config.macos_window_background_blur = 30
 --config.kde_window_background_blur = true
 config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
 
+-- Ignore all states to close tabs unprompted
 wezterm.on('mux-is-process-stateful', function(_proc)
   return false
 end)
