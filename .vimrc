@@ -8,6 +8,10 @@ set number
 " Show relative line number
 set relativenumber
 
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=5
+
 " Turn on the Wild menu
 set wildmenu
 
