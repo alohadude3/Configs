@@ -6,3 +6,6 @@ alias ll='lsd -la'
 alias cd='z'
 eval "$(zoxide init bash)"
 
+# Starship
+eval "$(starship init bash)"
+
