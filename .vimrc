@@ -64,3 +64,7 @@ set si "Smart indent
 " Always show the status line
 set laststatus=2
 
+" Vertical bar in insert mode
+let &t_SI = "\<Esc>[6 q"
+" Block in other modes (Normal, Visual)
+let &t_EI = "\<Esc>[2 q"
